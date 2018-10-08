@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.facebook.shimmer.ShimmerFrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/item_card_loading_feed_card_shimmerFrameLayout_root"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/item_card_loading_feed_card_constrain_1"
+            android:layout_width="200dp"
+            android:layout_height="10dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/blur_content_recycler_view_card_item"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/item_card_loading_feed_card_constrain_2"
+            android:layout_width="300dp"
+            android:layout_height="10dp"
+            android:layout_marginEnd="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/blur_content_recycler_view_card_item"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/item_card_loading_feed_card_constrain_1"
+            app:layout_constraintTop_toBottomOf="@+id/item_card_loading_feed_card_constrain_1" />
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/item_card_loading_feed_card_constrain_3"
+            android:layout_width="0dp"
+            android:layout_height="10dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/blur_content_recycler_view_card_item"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/item_card_loading_feed_card_constrain_2"
+            app:layout_constraintTop_toBottomOf="@+id/item_card_loading_feed_card_constrain_2" />
+
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/item_card_loading_feed_card_constrain_4"
+            android:layout_width="10dp"
+            android:layout_height="10dp"
+            android:layout_marginBottom="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/blur_content_recycler_view_card_item"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="@+id/item_card_loading_feed_card_constrain_3"
+            app:layout_constraintTop_toBottomOf="@+id/item_card_loading_feed_card_constrain_3" />
+
+        <android.support.constraint.ConstraintLayout
+            android:id="@+id/item_card_loading_feed_card_constrain_5"
+            android:layout_width="100dp"
+            android:layout_height="10dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="8dp"
+            android:background="@drawable/blur_content_recycler_view_card_item"
+            app:layout_constraintBottom_toBottomOf="@+id/item_card_loading_feed_card_constrain_4"
+            app:layout_constraintStart_toEndOf="@+id/item_card_loading_feed_card_constrain_4"
+            app:layout_constraintTop_toTopOf="@+id/item_card_loading_feed_card_constrain_4" />
+
+    </android.support.constraint.ConstraintLayout>
+</com.facebook.shimmer.ShimmerFrameLayout>

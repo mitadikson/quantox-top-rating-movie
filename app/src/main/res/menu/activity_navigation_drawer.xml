@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_top_rated_movie"
+            android:icon="@drawable/ic_menu_camera"
+            android:title="Top Rated Movie" />
+        <item
+            android:id="@+id/nav_favorites_movie"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Favorites Movie" />
+        <item
+            android:id="@+id/nav_tolls"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Tools" />
+    </group>
+
+</menu>
